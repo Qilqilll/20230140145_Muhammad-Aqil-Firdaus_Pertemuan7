@@ -1,0 +1,64 @@
+body {
+  font-family: sans-serif;
+  background-color: #fdf6f6; /* latar belakang lembut nuansa merah muda */
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(128, 0, 0, 0.1); /* bayangan maroon */
+}
+
+h2, h3 {
+  color: #800000; /* maroon klasik */
+}
+
+.profil p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #4b1c1c; /* maroon gelap */
+}
+
+.hobi {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.hobi img {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 15px;
+  border-radius: 5px;
+}
+
+.hobi p {
+  flex: 1;
+  font-size: 15px;
+  color: #5a2a2a; /* maroon agak terang */
+}
+
+.back, a {
+  margin-top: 20px;
+  background-color: #800000; /* maroon utama */
+  color: white;
+  text-decoration: none;
+  width: 70px;
+  height: 40px;
+  border: transparent;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+  line-height: 40px;
+  transition: background-color 0.3s ease;
+}
+
+.back:hover, a:hover {
+  background-color: #5c0000; /* maroon lebih gelap saat hover */
+}

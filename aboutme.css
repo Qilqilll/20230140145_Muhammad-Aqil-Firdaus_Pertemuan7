@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f4f4; /* latar belakang lebih soft dengan nuansa merah muda */
+  padding: 30px;
+  color: #4b1c1c; /* teks utama warna maroon gelap */
+}
+
+h2 {
+  text-align: center;
+  color: #800000; /* maroon klasik */
+  margin-bottom: 20px;
+}
+
+#hasil-data {
+  max-width: 600px;
+  margin: auto;
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(128, 0, 0, 0.1); /* bayangan dengan tone maroon */
+}
+
+#hasil-data p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.back {
+  display: block;
+  width: 100px;
+  text-align: center;
+  margin: 30px auto 0;
+  background-color: #800000; /* maroon utama */
+  color: white;
+  text-decoration: none;
+  padding: 10px 0;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.back:hover {
+  background-color: #5c0000; /* maroon lebih gelap saat hover */
+}
